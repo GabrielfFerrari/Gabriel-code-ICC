@@ -24,12 +24,9 @@ void main(){
 		if (quest == 1){
 			printf("Insira dois números quaisquer: \n");
 			scanf("%d%d", &i,&num3);
-			if (i > num3){
-				printf("O dividendo é %d, o divisor é %d, o quociente é %d e o resto é: %d \n", i, num3, i / num3, i % num3);
-				}
-			if (i < num3){
-				printf("O dividendo é %d, o divisor é %d, o quociente é %d e o resto é: %d \n", num3, i, num3 / i, num3 % i);
-				}
+				printf("Primeiro cálculo: \nO dividendo é %d, o divisor é %d, o quociente é %d e o resto é: %d \n\n", i, num3, i / num3, i % num3);
+				printf("Segundo cálculo: \nO dividendo é %d, o divisor é %d, o quociente é %d e o resto é: %d \n\n", num3, i, num3 / i, num3 % i);
+
 			printf("Insira o código para outra questão ou para fechar: ");
 			scanf("%d",&quest);
 			}
